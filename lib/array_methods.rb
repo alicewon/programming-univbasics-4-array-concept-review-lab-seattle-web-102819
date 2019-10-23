@@ -1,22 +1,3 @@
-=begin
-def find_element_index(array, value_to_find)
-  array.length.times { |index|
-
-  if array[index] == value_to_find
-    return array[index]
-  end
-  }
-end
-
-
-def find_element_index(array, value_to_find)
-  array.length.times { |index|
-    if array[index] == value_to_find then
-      puts array.index(value_to_find)
-    end
-  }
-=end
-
 def find_element_index(array, value_to_find)
   length = array.length
 
