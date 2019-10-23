@@ -10,7 +10,7 @@ end
 =end
 
 def find_element_index(array, value_to_find)
-  array.length.times {
+  array.length.times { |index|
     if array[index] == value_to_find then
       puts array.index(value_to_find)
     end
