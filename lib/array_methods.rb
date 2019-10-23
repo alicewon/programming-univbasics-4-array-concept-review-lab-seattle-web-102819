@@ -11,7 +11,7 @@ end
 
 def find_element_index(array, value_to_find)
   array.length.times {
-    if array[element] == value_to_find then
+    if array[index] == value_to_find then
       puts array.index(value_to_find)
     end
   }
