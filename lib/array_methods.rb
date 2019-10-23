@@ -1,11 +1,13 @@
 def find_element_index(array, value_to_find)
-  if array.include?("value_to_find") then
-    return array.index
+
 end
 
 
 def find_max_value(array)
-  # Add your solution here
+  max_array = []
+  max_array.push(array.sort)
+  return array[-1]
+
 end
 
 def find_min_value(array)
