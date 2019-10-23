@@ -6,7 +6,7 @@ end
 def find_max_value(array)
   max_array = []
   max_array.push(array.sort)
-  max_array[-1]
+  max_array[0]
 
 end
 
